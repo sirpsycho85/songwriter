@@ -16,8 +16,7 @@ public class Note extends Symbol {
         this.letter = letter;
     }
 
-    //@Override
-    public String valueOf() {
+    public String toString() {
         return letter + ""; //must be a smarter way to do this
     }
 }
