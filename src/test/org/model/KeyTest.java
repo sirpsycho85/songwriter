@@ -8,9 +8,10 @@ public class KeyTest {
 
     private char root = 'a';
     private String mode = "minor";
-    private Key k = new Key(root,mode);
+    private Key key = new Key(root,mode);
+
     @Test
     public void testToString() throws Exception {
-        assertEquals(k.toString(),"a minor");
+        assertEquals(key.toString(), "a minor");
     }
 }
